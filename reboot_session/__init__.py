@@ -1,0 +1,1 @@
+"""Reboot Session desktop application."""

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.spec
+.DS_Store
+
+# Generated transfer archives
+RebootSession-*.zip
+# Extracted copy of the transfer archive
+/RebootSession/

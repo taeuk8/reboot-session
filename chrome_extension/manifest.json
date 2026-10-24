@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Reboot Session — Chrome 작업 저장",
+  "version": "0.1.0",
+  "description": "사용자가 버튼을 누를 때 현재 일반 창의 탭을 로컬 JSON 파일로 저장합니다.",
+  "permissions": ["tabs", "downloads"],
+  "action": {"default_popup": "popup.html"}
+}

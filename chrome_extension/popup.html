@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><title>Reboot Session</title>
+<style>body{width:300px;background:#101827;color:#edf4ff;font:14px system-ui;padding:20px}h1{font-size:22px}p{color:#a9bbd3;line-height:1.6}input,button{box-sizing:border-box;width:100%;padding:12px;border:0;border-radius:7px;margin-top:8px}input{background:#24344b;color:white}button{background:#68dfbb;font-weight:bold;cursor:pointer}#status{font-size:12px}</style>
+<h1>하던 탭 그대로.</h1><p>현재 프로필의 일반 창과 탭을 저장합니다. 다운로드한 JSON을 Reboot Session 앱에서 가져오세요.</p>
+<label>Chrome 프로필 폴더 이름<input id="profile" value="Default" placeholder="Default 또는 Profile 1"></label>
+<p>chrome://version의 ‘프로필 경로’ 마지막 폴더 이름입니다. 다른 프로필은 각각 내보내세요.</p>
+<button id="save">현재 창·탭 내보내기</button><p id="status">로그인 정보와 시크릿 창은 저장하지 않습니다.</p>
+<script src="popup.js"></script></html>
